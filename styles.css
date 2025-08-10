@@ -1,4 +1,4 @@
-/* ===== Header Styles ===== */
+
 .head1 {
   font-size: 24px;
   color: #FFFFFF;
@@ -21,14 +21,14 @@ header {
   background-color: #232323;
 }
 
-/* ===== Global Body ===== */
+
 body {
   background-color: #88ABB5;
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-/* ===== Main Flex Container ===== */
+
 .container {
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ body {
   padding: 0;
 }
 
-/* ===== Ellipse Profile Area ===== */
+
 .ellipse-bg {
   margin-top: 20px;
   flex: 0 0 auto;
@@ -57,7 +57,7 @@ body {
   margin-left: 0;
 }
 
-/* ===== Profile Section ===== */
+
 .profile-section {
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ body {
   text-align: center;
 }
 
-/* ===== Responsive Profile Photo ===== */
+
 .profile-photo {
   width: 45%;
   max-width: 200px;
@@ -80,7 +80,7 @@ body {
   box-shadow: 0 4px 8px rgba(60, 60, 60, 0.1);
 }
 
-/* ===== Text Styles ===== */
+
 .high {
   font-size: 1.8rem;
   margin: 0;
@@ -92,7 +92,7 @@ body {
   line-height: 1.2;
 }
 
-/* ===== Content Block ===== */
+
 .content {
   flex: 1 1 300px;
   max-width: auto;
@@ -105,7 +105,7 @@ body {
   line-height: 1.5;
 }
 
-/* ===== Responsive Adjustments ===== */
+
 @media (max-width: 900px) {
   .ellipse-bg {
     margin-top: 20px;
@@ -154,7 +154,7 @@ body {
   }
 }
 
-/* Optional: Make sure nothing touches right edge on the smallest screens */
+
 @media (max-width: 430px) {
   .ellipse-bg {
     margin-top: 20px;
@@ -173,45 +173,45 @@ body {
 .icons {
   padding-top: 30px;
   display: flex;
-  gap: 12px;              /* space between icons */
-  margin-top: 12px;       /* spacing from paragraph */
-  justify-content: flex-end; /* align to left */
+  gap: 12px;              
+  margin-top: 12px;       
+  justify-content: flex-end; 
   align-items: center;
 
 }
 
 .icon {
-  width: 30px;             /* size of icons */
+  width: 30px;             
   height: 30px;
   cursor: pointer;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .icon:hover {
-  transform: scale(1.1);   /* slightly bigger on hover */
-  opacity: 0.8;            /* hover transparency effect */
+  transform: scale(1.1);   
+  opacity: 0.8;            
 }
 
-/* On mobile - align center instead of left (optional) */
+
 @media (max-width: 700px) {
   .icons {
     justify-content: center;
   }
 }
 
-/* ===== Contact Info Section Below Icons ===== */
+
 .contact-info {
-  margin-top: 20px;                /* space above contact info */
+  margin-top: 20px;                
   display: flex;
-  flex-direction: column;          /* stack vertically */
-  align-items: flex-end;            /* align right like icons */
+  flex-direction: column;          
+  align-items: flex-end;            
   gap: 8px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 8px;                         /* space between icon and text */
+  gap: 8px;                         
 }
 
 .contact-icon {
@@ -224,10 +224,10 @@ body {
     
   font-size: 0.95rem;
   color: #333;
-  white-space: nowrap;              /* prevent breaking in two lines */
+  white-space: nowrap;              
 }
 
-/* On mobile - center align instead of right */
+
 @media (max-width: 700px) {
   .contact-info {
     align-items: center;
@@ -235,7 +235,7 @@ body {
 }
 
 
-/* ===== About Me Section ===== */
+
 .about-section {
     background-color: #E8EDF1;
     padding: 60px 20px;
@@ -285,7 +285,7 @@ body {
     margin-bottom: 0;
 }
 
-/* ===== Responsive Design for About Section ===== */
+
 @media (max-width: 900px) {
     .about-container {
         max-width: 90%;
@@ -342,7 +342,7 @@ body {
 
 
 
-/* ===== Skills & Strengths Section ===== */
+
 .skills-section {
     background: linear-gradient(135deg, #88ABB5 0%, #7A9FA8 100%);
     padding: 80px 20px;
@@ -471,7 +471,7 @@ body {
     margin-bottom: 0;
 }
 
-/* ===== Responsive Design for Skills Section ===== */
+
 @media (max-width: 900px) {
     .skills-container {
         max-width: 95%;
@@ -555,7 +555,7 @@ body {
 
 
 
-/* ===== Courses & Certifications Section ===== */
+
 .certifications-section {
     background-color: #f4f4f4;
     padding: 80px 20px;
@@ -655,7 +655,7 @@ body {
     }
 }
 
-/* ===== Technical Skills Progress Section ===== */
+
 .tech-skills-section {
     background: linear-gradient(135deg, #7A9FA8, #88ABB5);
     padding: 80px 20px;
@@ -729,7 +729,7 @@ body {
     transition: width 1s ease-in-out;
 }
 
-/* Example usage: set skill level */
+
 .skill[data-skill="90"] .skill-progress { width: 90%; }
 .skill[data-skill="75"] .skill-progress { width: 75%; }
 .skill[data-skill="60"] .skill-progress { width: 60%; }
@@ -755,7 +755,7 @@ body {
 
 
 
-/* ===== Quick Links Section ===== */
+
 .quick-links-section {
     width: 100%;
     background: #e8edf1;
@@ -820,7 +820,7 @@ body {
     margin: 0;
 }
 
-/* Responsive for mobile */
+
 @media (max-width: 900px) {
     .quick-links-container {
         gap: 20px;
@@ -847,7 +847,7 @@ body {
 
 
 
-/* ===== Footer Styling ===== */
+
 .site-footer {
     background: linear-gradient(160deg, #232323, #445c64);
     color: #fff;
@@ -913,7 +913,7 @@ body {
     margin-top: 20px;
 }
 
-/* Responsive footer layout */
+
 @media (max-width: 600px) {
     .footer-container {
         flex-direction: column;
@@ -921,6 +921,7 @@ body {
         gap: 20px;
     }
 }
+
 
 
 
