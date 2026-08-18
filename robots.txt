@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sarthakbadoni.github.io/E_Portfolio/sitemap.xml
+Sitemap: https://sarthakbadoni.github.io/E_Portfolio/assets/sitemap.xml
